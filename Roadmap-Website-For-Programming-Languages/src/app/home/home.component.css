@@ -1,0 +1,81 @@
+
+General styling
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  background-color: black;
+  display:grid;
+  grid-template-columns: repeat(3, 1fr); /* Three columns */
+  gap: 10px; /* Adjust spacing between boxes */
+  padding: 90px; /* Adjust padding around the grid */   
+  background-color: rgb(0, 12, 34);
+  height: 100vh;
+}
+
+
+
+.box {
+  height: 200px; /* Set height for square boxes */
+  width: 400px;
+  background-color: #ffffff; /* Set your desired background color */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+  border-radius: 8px; /* Rounded corners for a professional look */
+  text-align: center;
+  padding-top: 10px;
+  border-radius: 10px;
+}
+
+#b:hover{
+  transition: 1.5s;
+  height: 200px; /* Set height for square boxes */
+  width: 400px;
+  background-color: rgb(247, 247, 247); /* Set your desired background color */
+  box-shadow: 0 10px 20px rgba(230, 15, 15, 0.1); /* Add shadow effect */
+  border-radius: 8px; /* Rounded corners for a professional look */
+  text-align: center;
+  padding-top: 10px;
+  border-radius: 90px;
+  cursor:pointer;
+  opacity: 0.9;
+}
+
+.image-bg {
+  width: 400px; /* Adjust the width and height as needed */
+  height: 200px;
+  background-image: url('py.png'); /* Replace 'path_to_image.jpg' with your image path */
+  background-size: cover; /* Scale the background image to cover the entire button */
+}
+
+.image-java {
+  width: 400px; /* Adjust the width and height as needed */
+  height: 200px;
+  background-image: url('java.png'); /* Replace 'path_to_image.jpg' with your image path */
+  background-size: cover; /* Scale the background image to cover the entire button */
+}
+.image-js {
+  width: 400px; /* Adjust the width and height as needed */
+  height: 200px;
+  background-image: url('js.png'); /* Replace 'path_to_image.jpg' with your image path */
+  background-size: cover; /* Scale the background image to cover the entire button */
+}
+.image-angular {
+  width: 400px; /* Adjust the width and height as needed */
+  height: 200px;
+  background-image: url('angular.png'); /* Replace 'path_to_image.jpg' with your image path */
+  background-size: cover; /* Scale the background image to cover the entire button */
+}
+.image-ts {
+  width: 400px; /* Adjust the width and height as needed */
+  height: 200px;
+  background-image: url('ts.png'); /* Replace 'path_to_image.jpg' with your image path */
+  background-size: cover; /* Scale the background image to cover the entire button */
+}
+.image-react {
+  width: 400px; /* Adjust the width and height as needed */
+  height: 200px;
+  background-image: url('react.png'); /* Replace 'path_to_image.jpg' with your image path */
+  background-size: cover; /* Scale the background image to cover the entire button */
+}

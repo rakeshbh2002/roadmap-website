@@ -1,0 +1,21 @@
+/* Footer styling */
+.footer {
+    background-color: #000; /* Black background color */
+    padding: 20px;
+  }
+  
+  .footer-content {
+    display: flex;
+  }
+  
+  .footer-item {
+    color: white; /* Black text color */
+    cursor: pointer;
+    transition: color 0.3s; /* Smooth color transition */
+  }
+  
+  .footer-item:hover {
+   
+    color: white;
+    
+  }

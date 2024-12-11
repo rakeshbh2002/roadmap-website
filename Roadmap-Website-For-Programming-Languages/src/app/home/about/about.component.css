@@ -1,0 +1,43 @@
+/* Basic CSS for styling the About Us page */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 12, 34);
+
+    color: white;
+  }
+
+
+  .about-section{
+    background-color: rgb(0, 12, 34);
+
+  }
+
+  
+  .container {
+    max-width: 840px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  p {
+    color: white;
+
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  .image-col{
+    width: 600px; /* Adjust the width and height as needed */
+    height: 300px;
+    background-image: url('col.png'); /* Replace 'path_to_image.jpg' with your image path */
+    background-size: cover; /* Scale the background image to cover the entire button */
+  }
